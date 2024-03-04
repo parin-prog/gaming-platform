@@ -14,7 +14,7 @@ const About = () => {
   });
 
   const scaleX = useSpring(scrollYProgress, {					// Animation on scrolling
-    stiffness: 300,
+    stiffness: 80,
     damping: 40,
     restDelta: 0.001
   });

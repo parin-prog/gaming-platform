@@ -1,11 +1,16 @@
 import videobg from '../assets/video/video.mp4'
 import './Section.css'
+import { useParallax } from "react-scroll-parallax";
 
 const Video = () => {
+
+	const vid = useParallax({
+		rotateY: [0, 360],
+	      });
 	return (
 		<div className="section">
 			<div className="overlay"></div>
-			<div className='video-container'>
+			<div ref={vid.ref} className='video-container'>
 				<video src={videobg} autoPlay loop muted playsInline className="video-clip">
 				</video>
 			</div>
