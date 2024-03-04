@@ -51,12 +51,76 @@
 	height: 50vh;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	background-color: rgb(42, 42, 42);
 }
-.section-1-container {
+.bottom-page-container {
+	margin: 0 100px 80px 100px;
+	width: 80vw;
+	height: 30vh;
+}
+.bottom-page-container> hr {
+	width: 60vw;
+	margin-right: 140px;
+}
+.section-1 {
 	color: white;
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
+	
+}
+.section-1-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 11vh;
+}
+.logo {
+	font-weight: 600;
+}
+.section-1-info>ul {
+	width: 60%;
+	list-style: none;
+	margin-left: -9px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-weight: 200;
+}
+.section-1-info>ul>li {
+	cursor: pointer;
+}
+.section-1-social {
+	width: 20%;
+	text-align: right;
+	height: 11vh;
+}
+.section-1-social>h8{
+	font-weight: 600;
+}
+.section-1-social>ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.section-1-social>ul>li {
+	cursor: pointer;
+}
+
+.section-2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 20vh;
+	width: 71vw;
+}
+.section-2>.rating {
+	width: 258px;
+	height: 111px;
+	background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2016/11/esrb/esrb-rating-pending.svg);
+	background-repeat: no-repeat;
 }
 
 .join-btn>button:hover {
