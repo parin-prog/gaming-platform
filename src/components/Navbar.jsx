@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <div className="nav">
 	<div className="logo">
-		<img src='https://media.graphassets.com/qiFQiyH6TiuMdOIA5yZJ' />
+		<img src='https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3yO74fMJvl6bDmYAE9VDe3/13ddd4963c5bd4e39a852e6085eb7d47/UBI_RR_Logo_textured_coloured_Nav_footer.png' />
 	</div>
 	<div className="list">
 		<ul>

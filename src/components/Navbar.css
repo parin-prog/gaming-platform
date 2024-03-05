@@ -1,5 +1,9 @@
 .nav {
-	background-color: #000000;
+	background: linear-gradient(
+		to right,
+		#1d1d1d,
+		#343230
+	);
 	height: 10vh;
 	display: flex;
 	align-items: center;
@@ -8,6 +12,7 @@
 	color: black;
 	box-shadow: 0px -30px 100px 0px rgba(255, 255, 255, 0.307);
 	z-index: 2;
+	font-family: 'Montserrat';
 }
 
 .logo {
@@ -27,10 +32,37 @@
 }
 
 .list>ul>li {
-	padding: 10px 30px;
+	padding: 5px 20px;
 	margin: 3px;
-	border-radius: 3px;
-	border-bottom: 2px solid #000000;
+	letter-spacing: 0.5px;
+	position: relative;
+}
+.list>ul>li:hover {
+	color: rgb(197, 197, 197);
+	cursor: pointer;
+	/* box-shadow: 0px 10px 100px 11px rgb(255, 128, 0); */
+	transform: scale(105%);
+	transition: all 0.3s;
+}
+.list>ul>li:after {
+	content: "";
+	width: 0%;
+	height: 3px;
+	background-image: linear-gradient(
+		to right,
+		transparent,
+		cyan,
+		rgb(0, 166, 255),
+		cyan,
+		transparent
+	);
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	transition: 0.3s;
+}
+.list>ul>li:hover:after {
+	width: 100%;
 }
 
 .route-link{
@@ -38,11 +70,3 @@
 	color: #8a8989;
 }
 
-.list>ul>li:hover {
-	color: rgb(197, 197, 197);
-	cursor: pointer;
-	border-bottom: 2px solid #ffcc00;
-	/* box-shadow: 0px 10px 100px 11px rgb(255, 128, 0); */
-	transform: scale(110%);
-	transition: all 0.3s;
-}

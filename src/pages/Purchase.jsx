@@ -8,7 +8,7 @@ const Purchase = () => {
 			<div className='purchase-container'>
 				<div className="product-info">
 					<div className="product-photo">
-						<img src="https://www.tonyhawkthegame.com/content/dam/atvi/tony-hawk/alcatraz/wtb/boxart/Alcatraz_Design_PC_Packshot_Standard_Edition_FINAL_T_081920-min.jpg" alt="product photo" />
+						<img src="https://cdn1.epicgames.com/offer/83d6990f16444655866b04be562bf589/RR_YEAR_1_PASS_EPIC_Key_Art_Wide_3840x2160_3840x2160-62c1c09dca94e0e865e84cfd391abec9" alt="product photo" />
 					</div>
 					<div className="product-info-list">
 						<select name="country" id="country">
@@ -32,7 +32,7 @@ const Purchase = () => {
 						<div className="title">Digital Edition</div>
 						<hr />
 						<div className="item-names">
-							Tony Hawk's PRO Skater 1 + 2 Game
+							Riders Republic 1 + 2 Game
 						</div>
 					</div>
 				</div>

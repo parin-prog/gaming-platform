@@ -92,6 +92,9 @@
 .section-1-info>ul>li {
 	cursor: pointer;
 }
+.section-1-info>ul>li:hover {
+	color: cyan;
+}
 .section-1-social {
 	width: 20%;
 	text-align: right;
@@ -108,7 +111,9 @@
 .section-1-social>ul>li {
 	cursor: pointer;
 }
-
+.section-1-social>ul>li:hover {
+	color: cyan;
+}
 .section-2 {
 	display: flex;
 	align-items: center;
@@ -123,7 +128,9 @@
 	background-repeat: no-repeat;
 }
 
-.join-btn>button:hover {
-	border: 5px solid black;
-	transition: 0.5 all;
+.join-btn:hover {
+	margin-left: 1px;
+	margin-top: 20px;
+	transform: scale(1.1);
+	transition: all 0.5s;
 }
